@@ -30,5 +30,9 @@ Route::group(['middleware' => ['verified']], function () {
     Route::group(['prefix' => 'users', 'as' => 'users.'], function () {
         Route::get('/', \App\Http\Livewire\User\Index::class)->name('index');
     });
+
+    Route::group(['prefix' => 'roles', 'as' => 'roles.'], function () {
+        Route::get('/', \App\Http\Livewire\Role\Index::class)->name('index');
+    });
 });
 
