@@ -18,6 +18,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- [Laravel Livewire](https://laravel-livewire.com/).
+- [Livewire SweetAlert](https://livewire-alert.jantinnerezo.com/).
+- [Livewire Table Library](https://github.com/rappasoft/laravel-livewire-tables)
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
