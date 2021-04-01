@@ -29,6 +29,7 @@ cd test-tekenaja
 run composer install
 cp .env.example to .env
 config file .env
+config MAIL in .env
 run php artisan key:generate
 run php artisan migrate --seed
 run php artisan storage:link
